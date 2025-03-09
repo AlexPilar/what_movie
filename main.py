@@ -29,7 +29,18 @@ def pesquisar_filme(chave, genero, streaming, lista):
 
 
 # Opções de gênero
-opcoes_genero = ["Selecione uma opção", "Ação", "Terror", "Comédia"]
+opcoes_genero = ["Selecione uma opção", 
+    "Ação",
+    "Aventura",
+    "Comédia",
+    "Drama",
+    "Ficção Científica",
+    "Investigação",
+    "Mistério",
+    "Romance",
+    "Suspense",
+    "Terror"
+]
 opcoes_streamings = ["Selecione uma opção", "Netflix", "Amazon Prime", "Max", "Disney", "Qualquer um"]
 
 # Escolhas do usuário
